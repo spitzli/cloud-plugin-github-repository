@@ -1,0 +1,131 @@
+["package"]
+"name" = "webdock-github-repository"
+"version" = "0.1.0"
+"edition" = "2024"
+"rust-version" = "1.94"
+"license" = "AGPL-3.0-only"
+
+["workspace"]
+
+["features"]
+"local-provider-test" = []
+
+["dependencies"]
+"async-trait" = "0.1"
+"serde_json" = "1"
+"chrono" = "0.4"
+"url" = "2"
+"flate2" = "1"
+"tar" = "0.4"
+"hex" = "0.4"
+"base64" = "0.22"
+"ed25519-dalek" = "2"
+"libc" = "0.2"
+
+["dependencies"."webdock-plugin-runtime"]
+"git" = "https://github.com/spitzli/cloud-plugin-sdk"
+"rev" = "8ed57d89c3263b050f126e4c2ba7f6cdebb0daa6"
+"package" = "webdock-plugin-runtime"
+
+["dependencies"."webdock-repository-protocol"]
+"git" = "https://github.com/spitzli/cloud-plugin-sdk"
+"rev" = "8ed57d89c3263b050f126e4c2ba7f6cdebb0daa6"
+"package" = "webdock-repository-protocol"
+
+["dependencies"."serde"]
+"version" = "1"
+"features" = ["derive"]
+
+["dependencies"."tokio"]
+"version" = "1"
+"features" = ["macros", "rt-multi-thread", "signal", "fs"]
+
+["dependencies"."reqwest"]
+"version" = "0.13"
+"default-features" = false
+"features" = ["rustls-no-provider", "json", "stream"]
+
+["dependencies"."rustls"]
+"version" = "0.23"
+"default-features" = false
+"features" = ["ring", "std", "tls12"]
+
+["dependencies"."octocrab"]
+"version" = "=0.54.5"
+"default-features" = false
+"features" = ["jwt-rust-crypto"]
+
+["dependencies"."tonic"]
+"version" = "0.14.6"
+"default-features" = false
+"features" = ["transport", "tls-ring"]
+
+["dev-dependencies"]
+"axum" = "0.8"
+"tempfile" = "3"
+
+["dev-dependencies"."jsonwebtoken"]
+"version" = "10"
+"default-features" = false
+"features" = ["rust_crypto"]
+
+["lints"]
+
+["lints"."rust"]
+"unsafe_op_in_unsafe_fn" = "deny"
+"unused_must_use" = "deny"
+"unfulfilled_lint_expectations" = "deny"
+
+["lints"."clippy"]
+"allow_attributes_without_reason" = "deny"
+"as_ptr_cast_mut" = "deny"
+"await_holding_lock" = "deny"
+"await_holding_refcell_ref" = "deny"
+"cast_lossless" = "deny"
+"checked_conversions" = "deny"
+"dbg_macro" = "deny"
+"excessive_nesting" = "deny"
+"exit" = "deny"
+"fallible_impl_from" = "deny"
+"implicit_clone" = "deny"
+"let_underscore_future" = "deny"
+"lossy_float_literal" = "deny"
+"manual_assert" = "deny"
+"manual_let_else" = "deny"
+"match_wildcard_for_single_variants" = "deny"
+"mem_forget" = "deny"
+"mut_mut" = "deny"
+"needless_continue" = "deny"
+"needless_pass_by_ref_mut" = "deny"
+"option_option" = "deny"
+"rc_mutex" = "deny"
+"redundant_else" = "deny"
+"ref_option_ref" = "deny"
+"todo" = "deny"
+"unchecked_time_subtraction" = "deny"
+"undocumented_unsafe_blocks" = "deny"
+"unimplemented" = "deny"
+"unnecessary_box_returns" = "deny"
+"unnecessary_safety_comment" = "deny"
+"unnecessary_safety_doc" = "deny"
+"unnested_or_patterns" = "deny"
+
+["lints"."clippy"."correctness"]
+"level" = "deny"
+"priority" = -1
+
+["lints"."clippy"."suspicious"]
+"level" = "deny"
+"priority" = -1
+
+["lints"."clippy"."complexity"]
+"level" = "deny"
+"priority" = -1
+
+["lints"."clippy"."perf"]
+"level" = "deny"
+"priority" = -1
+
+["lints"."clippy"."style"]
+"level" = "deny"
+"priority" = -1
