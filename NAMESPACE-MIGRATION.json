@@ -1,0 +1,49 @@
+{
+  "baseSource": "03b23a1f2646493aadbdc50bed3f3a893544ed77",
+  "date": "2026-11-12",
+  "formatVersion": 1,
+  "licenseUnchanged": true,
+  "originalSourceSnapshotRetained": true,
+  "package": "spitzli-github-repository",
+  "preservedBindingFilesSHA256": {
+    "COMMERCIAL-LICENSING.md": "5b8832f5014f16e2cf4f7ee295de32760eed20981495d184bd9f1517be256a09",
+    "EXPORT-PROVENANCE.json": "50a2b503ababfcb7ceba79751144a4de83edec31c196fa224e3c3bbbba3e18a5",
+    "LICENSE": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+  },
+  "qualifiedChangedSourceSHA256": {
+    "Cargo.lock": "1aa99ee5496efb641a60b94830c219d2f2661d61b17c0f6bb9d98d86e4752c53",
+    "Cargo.toml": "fdc2aabccedb5f0a2fc130341c78a346904a1506c615c44cb004350e888d6b55",
+    "Dockerfile": "b386678edf4f4cf770ff5ca7e352189c296f139e3e0d4a6f650a104fdc1b8a67",
+    "NOTICE": "4949ccd63735c148d2fd1f1423772d11938087ba0bdbcf4aad81c576bcfa09b8",
+    "README.md": "2d4a9f6095deca8162e1a58fbcbe4b7fb3f853b23bdba324256d9b36397e797b",
+    "scripts/native-release.py": "44ed0e8cf69563be9dd1a12f33bc226188136f60188006a99d0da2cca50fbcd4",
+    "src/lib.rs": "d5064d645c14b0588a5b7b7893976ae4128cb7e26d313dc8e9d232b89efd1cbc",
+    "src/main.rs": "c352cc5f6dfa962619960a42a7c27f4db662878a0c57e40269f2a99d0f8904a2",
+    "standalone.json": "270a130dde24fef18add379290aaeca3d68a96ff06fb15a05444a0f56be7de11",
+    "tests/provider.rs": "0e982f37d6d53758d0fba8b92ad11260be732e5bc49c20293e8a48eee496a4b0",
+    "tools/manifest-validator/Cargo.toml": "81aa8724804a7f701f7b312c8851937369409d029071d2034dbd6f535b86df6a",
+    "tools/manifest-validator/src/main.rs": "bb5f5ab38c63e2c28aa64a329696e923aa747e62de2d058e2de734ada06e72b4"
+  },
+  "runtimeArtifactsReplaced": false,
+  "scope": "Rust package/import and binary namespace, host UI import namespace, paired test environment variables and exact SDK pin",
+  "sdkGit": "https://github.com/spitzli/cloud-plugin-sdk",
+  "sdkRevision": "8019f3df67dba3fed3083f22635e4725028c1b5e",
+  "sourceChecks": {
+    "allRegistryLockfilesPreserved": [
+      "Cargo.lock"
+    ],
+    "format": true,
+    "releaseContract": true,
+    "rustLiteralFilesChecked": 5,
+    "strictClippy": true,
+    "testsIgnored": 0,
+    "testsPassed": 3,
+    "ui": {
+      "backendOnly": true,
+      "component": "github-repository",
+      "uiTypecheck": "not-applicable-no-ui-source"
+    }
+  },
+  "version": "0.1.0",
+  "wireStoredCryptographicAndExternalResourceBindings": "retained for coordinated migration"
+}

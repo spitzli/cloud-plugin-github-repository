@@ -1,5 +1,5 @@
 ["package"]
-"name" = "webdock-github-repository"
+"name" = "spitzli-github-repository"
 "version" = "0.1.0"
 "edition" = "2024"
 "rust-version" = "1.94"
@@ -22,15 +22,15 @@
 "ed25519-dalek" = "2"
 "libc" = "0.2"
 
-["dependencies"."webdock-plugin-runtime"]
+["dependencies"."spitzli-plugin-runtime"]
 "git" = "https://github.com/spitzli/cloud-plugin-sdk"
-"rev" = "8ed57d89c3263b050f126e4c2ba7f6cdebb0daa6"
-"package" = "webdock-plugin-runtime"
+"rev" = "8019f3df67dba3fed3083f22635e4725028c1b5e"
+"package" = "spitzli-plugin-runtime"
 
-["dependencies"."webdock-repository-protocol"]
+["dependencies"."spitzli-repository-protocol"]
 "git" = "https://github.com/spitzli/cloud-plugin-sdk"
-"rev" = "8ed57d89c3263b050f126e4c2ba7f6cdebb0daa6"
-"package" = "webdock-repository-protocol"
+"rev" = "8019f3df67dba3fed3083f22635e4725028c1b5e"
+"package" = "spitzli-repository-protocol"
 
 ["dependencies"."serde"]
 "version" = "1"
