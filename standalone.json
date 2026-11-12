@@ -1,14 +1,14 @@
 {
   "binaries": [
-    "webdock-github-repository"
+    "spitzli-github-repository"
   ],
   "connectionsOwner": "Core",
   "coreIntegrationDependencies": [],
   "coreIntegrationTests": [],
-  "entrypoint": "webdock-github-repository",
+  "entrypoint": "spitzli-github-repository",
   "lockfileRequiresRegeneration": true,
   "name": "github-repository",
-  "package": "webdock-github-repository",
+  "package": "spitzli-github-repository",
   "release": {
     "mode": "oci-only",
     "protocol": "webdock.repository.v1",
@@ -17,10 +17,10 @@
     "version": "0.1.0"
   },
   "sdkDependencies": [
-    "webdock-plugin-runtime",
-    "webdock-repository-protocol"
+    "spitzli-plugin-runtime",
+    "spitzli-repository-protocol"
   ],
   "sdkGit": "https://github.com/spitzli/cloud-plugin-sdk",
-  "sdkRevision": "8ed57d89c3263b050f126e4c2ba7f6cdebb0daa6",
+  "sdkRevision": "8019f3df67dba3fed3083f22635e4725028c1b5e",
   "source": "plugins/github-repository"
 }
